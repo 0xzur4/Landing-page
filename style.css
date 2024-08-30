@@ -65,6 +65,8 @@ a {
 main {
     display: flex;
     justify-content: center;
+    padding: auto;
+    margin: auto;
 }
 main .content{
     display: flex;
@@ -125,14 +127,19 @@ footer{
         flex-direction: column;
     }
     aside{
-        height: 150px;
-        width: 150px;
+        height: 170px;
+        width: 170px;
     }
     .description-content .description p{
-        max-width: 300px;
+        max-width: 350px;
+    }
+    .social-media{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 769px) and (max-width: 1000px) {
     header{
         flex-direction: column;
     }
@@ -141,10 +148,15 @@ footer{
         flex-direction: column;
     }
     aside{
-        height: 250px;
-        width: 250px;
+        height: 200px;
+        width: 200px;
     }
     .description-content .description p{
         max-width: 500px;
+    }
+    .social-media{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
