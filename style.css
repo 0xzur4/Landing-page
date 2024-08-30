@@ -132,3 +132,19 @@ footer{
         max-width: 300px;
     }
 }
+@media screen and (max-width: 1280px) {
+    header{
+        flex-direction: column;
+    }
+    main .content{
+        display: flex;
+        flex-direction: column;
+    }
+    aside{
+        height: 250px;
+        width: 250px;
+    }
+    .description-content .description p{
+        max-width: 500px;
+    }
+}
